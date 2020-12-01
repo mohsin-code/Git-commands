@@ -2,6 +2,7 @@
 All Git Commands for version control system. 
 
 Download Git Software : (https://git-scm.com/downloads)
+Git Documentation : (https://git-scm.com/downloads)
 
 ## Git commands cheat sheet
 
@@ -15,8 +16,8 @@ Download Git Software : (https://git-scm.com/downloads)
 |6.|**`git commit -m <commitaddress>`**   |To address your commits. ❤|
 |7.|**`git log`**|To check the details about your file entries 📑|
 |8.|**`git log --oneline`**|It will gives the exact oneline view of your recent file commits.|
-|9.| **`git checkout <file ID> <file name>`**|To go back to your previous version of your particular commit.|
-|10.|**`git checkout -- <filename>`**|To come back to your current version.|
+|9.| **`git checkout <file ID> <branch>`**|To go back to your previous version of your particular commit.|
+|10.|**`git checkout <branch>`**|To come back to your current version.|
 |11.|**`git reset <file name>`**|To go to your normal stage level.|
 |12.|**`git push origin master`**|To push your commits to your master branch github repository.|
 |13.|**`git pull origin master`**|To pull commits from your master branch github repository.|
@@ -25,7 +26,10 @@ Download Git Software : (https://git-scm.com/downloads)
 |16.|**`git add .`**|To add all of the untracked files detected by git.|
 |17.|**`git remote`**|Lists all remote github repositories associated with your local git project.|
 |18.|**`git remote -v`**|Lists in verbose all remote github repositories associated with the local project.|
-|19.|**`git remote add origin <URL>`**|To link your local git repository with your remote github repository.|
-|20.|**`git config --global user.name "Your Name"`**|To configure your github account username with git.|
-|21.|**`git config --global user.email your@example.com`**|To configure your github account email with git.|
-|22.|**`git config --list`**|To list all your git configurations.|
+|19.|**`git remote add <name> <URL>`**|To link your local git repository with any remote github repository.|
+|20.|**`git remote remove origin`**|To unlink your local git repository with your remote github repository.|
+|21.|**`git branch <branch>`**|To create a new branch locally.|
+|22.|**`git merge <branch>`**|To merge the branch to your own repository.|
+|23.|**`git config --global user.name "Your Name"`**|To configure your github account username with git.|
+|24.|**`git config --global user.email your@example.com`**|To configure your github account email with git.|
+|25.|**`git config --list`**|To list all your git configurations.|
