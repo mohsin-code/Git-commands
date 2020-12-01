@@ -2,7 +2,8 @@
 All Git Commands for version control system. 
 
 Download Git Software : (https://git-scm.com/downloads)
-Git Documentation : (https://git-scm.com/downloads)
+
+Git Documentation : (https://git-scm.com/doc)
 
 ## Git commands cheat sheet
 
